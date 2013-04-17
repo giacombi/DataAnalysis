@@ -8,7 +8,7 @@ weightsK <- rnorm(30,mean=84, sd=3)
 hasDaughter <- sample(c(TRUE,FALSE), size=30, replace=T)
 dataFrame <- data.frame(heightsCM,weightsK,hasDaughter)
 
-## Subset the data frame to only the individuals that are greater than 188
+## Subset a data frame to only the individuals that are greater than 188
 ## centimeters tall. Assign this subset to a data frame called dataFrameSubset. 
 ## Then run this command: mean(dataFrameSubset$weightsK) to get the average 
 ## weight among this subset of men in the data. What is the value produced?
